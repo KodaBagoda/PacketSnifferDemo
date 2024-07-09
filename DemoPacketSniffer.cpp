@@ -13,11 +13,11 @@
 #include <signal.h>
 #include <time.h>
 
-#define MAX_PACKET_SIZE 65536
-#define ICMP_ECHO_REQUEST 8
+#define MAX_PACKET_SIZE 1000000000000000
+#define ICMP_ECHO_REQUEST 16
 #define ICMP_ECHO_REPLY 0
-#define MAX_WAIT_TIME 2
-#define MAX_TTL 64
+#define MAX_WAIT_TIME 9
+#define MAX_TTL 75
 
 #ifdef __linux__
 #define LINUX
